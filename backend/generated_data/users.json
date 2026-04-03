@@ -1,0 +1,45 @@
+[
+  {
+    "id": "user_00001",
+    "name": "User 1",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00003",
+      "deal_00006",
+      "deal_00002",
+      "deal_00001"
+    ]
+  },
+  {
+    "id": "user_00002",
+    "name": "User 2",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00001",
+      "deal_00005",
+      "deal_00002",
+      "deal_00004",
+      "deal_00003",
+      "deal_00006"
+    ]
+  },
+  {
+    "id": "user_00003",
+    "name": "User 3",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00006",
+      "deal_00001",
+      "deal_00002",
+      "deal_00005",
+      "deal_00004",
+      "deal_00003"
+    ]
+  }
+]

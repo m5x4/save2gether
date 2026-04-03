@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "generatedAt": "2026-04-03T11:10:38Z",
+    "seed": 11,
+    "numUsers": 3,
+    "numDeals": 6,
+    "numInteractions": 16,
+    "coldStartUsers": 0,
+    "avgInteractionsPerUser": 5.33,
+    "dealsByCategory": {
+      "Retail": 1,
+      "Lifestyle & Fitness": 1,
+      "Games & Entertainment": 2,
+      "Travel & Attractions": 2
+    }
+  },
+  "users": [
+    {
+      "id": "user_00001",
+      "name": "User 1",
+      "preferredCategories": [
+        "Lifestyle & Fitness"
+      ],
+      "deals": [
+        "deal_00003",
+        "deal_00006",
+        "deal_00002",
+        "deal_00001"
+      ]
+    },
+    {
+      "id": "user_00002",
+      "name": "User 2",
+      "preferredCategories": [
+        "Food & Beverage"
+      ],
+      "deals": [
+        "deal_00001",
+        "deal_00005",
+        "deal_00002",
+        "deal_00004",
+        "deal_00003",
+        "deal_00006"
+      ]
+    },
+    {
+      "id": "user_00003",
+      "name": "User 3",
+      "preferredCategories": [
+        "Food & Beverage"
+      ],
+      "deals": [
+        "deal_00006",
+        "deal_00001",
+        "deal_00002",
+        "deal_00005",
+        "deal_00004",
+        "deal_00003"
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal_00001",
+      "dealName": "Retail Promo #1",
+      "merchantName": "Smart Goods",
+      "category": "Retail",
+      "location": "Paya Lebar, Singapore",
+      "numRequired": 11,
+      "clickCount": 7,
+      "createdDateTime": "2026-03-05T19:10:38Z",
+      "validUntil": "2026-05-11T17:10:38Z"
+    },
+    {
+      "id": "deal_00002",
+      "dealName": "Lifestyle & Fitness Promo #2",
+      "merchantName": "Core Studio",
+      "category": "Lifestyle & Fitness",
+      "location": "Paya Lebar, Singapore",
+      "numRequired": 2,
+      "clickCount": 34,
+      "createdDateTime": "2026-03-06T02:10:38Z",
+      "validUntil": "2026-04-13T13:10:38Z"
+    },
+    {
+      "id": "deal_00003",
+      "dealName": "Games & Entertainment Promo #3",
+      "merchantName": "Game Vault",
+      "category": "Games & Entertainment",
+      "location": "Jurong, Singapore",
+      "numRequired": 5,
+      "clickCount": 21,
+      "createdDateTime": "2026-03-05T15:10:38Z",
+      "validUntil": "2026-05-14T07:10:38Z"
+    },
+    {
+      "id": "deal_00004",
+      "dealName": "Games & Entertainment Promo #4",
+      "merchantName": "FunHub",
+      "category": "Games & Entertainment",
+      "location": "Jurong, Singapore",
+      "numRequired": 12,
+      "clickCount": 23,
+      "createdDateTime": "2026-02-12T21:10:38Z",
+      "validUntil": "2026-04-25T01:10:38Z"
+    },
+    {
+      "id": "deal_00005",
+      "dealName": "Travel & Attractions Promo #5",
+      "merchantName": "Island Hopper",
+      "category": "Travel & Attractions",
+      "location": "Bishan, Singapore",
+      "numRequired": 3,
+      "clickCount": 30,
+      "createdDateTime": "2026-04-02T14:10:38Z",
+      "validUntil": "2026-04-10T01:10:38Z"
+    },
+    {
+      "id": "deal_00006",
+      "dealName": "Travel & Attractions Promo #6",
+      "merchantName": "Skyline Tours",
+      "category": "Travel & Attractions",
+      "location": "Orchard, Singapore",
+      "numRequired": 12,
+      "clickCount": 14,
+      "createdDateTime": "2026-02-14T04:10:38Z",
+      "validUntil": "2026-05-06T20:10:38Z"
+    }
+  ],
+  "interactions": [
+    {
+      "user_id": "user_00001",
+      "deal_id": "deal_00003",
+      "interaction": 1.0,
+      "joinedAt": "2026-01-13T05:10:38Z"
+    },
+    {
+      "user_id": "user_00001",
+      "deal_id": "deal_00006",
+      "interaction": 1.0,
+      "joinedAt": "2025-12-24T14:10:38Z"
+    },
+    {
+      "user_id": "user_00001",
+      "deal_id": "deal_00002",
+      "interaction": 1.0,
+      "joinedAt": "2026-02-28T01:10:38Z"
+    },
+    {
+      "user_id": "user_00001",
+      "deal_id": "deal_00001",
+      "interaction": 1.0,
+      "joinedAt": "2026-03-23T02:10:38Z"
+    },
+    {
+      "user_id": "user_00002",
+      "deal_id": "deal_00001",
+      "interaction": 1.0,
+      "joinedAt": "2026-03-09T21:10:38Z"
+    },
+    {
+      "user_id": "user_00002",
+      "deal_id": "deal_00005",
+      "interaction": 1.0,
+      "joinedAt": "2026-01-28T05:10:38Z"
+    },
+    {
+      "user_id": "user_00002",
+      "deal_id": "deal_00002",
+      "interaction": 1.0,
+      "joinedAt": "2025-12-31T07:10:38Z"
+    },
+    {
+      "user_id": "user_00002",
+      "deal_id": "deal_00004",
+      "interaction": 1.0,
+      "joinedAt": "2026-02-08T15:10:38Z"
+    },
+    {
+      "user_id": "user_00002",
+      "deal_id": "deal_00003",
+      "interaction": 1.0,
+      "joinedAt": "2026-02-13T08:10:38Z"
+    },
+    {
+      "user_id": "user_00002",
+      "deal_id": "deal_00006",
+      "interaction": 1.0,
+      "joinedAt": "2026-02-11T22:10:38Z"
+    },
+    {
+      "user_id": "user_00003",
+      "deal_id": "deal_00006",
+      "interaction": 1.0,
+      "joinedAt": "2026-03-29T07:10:38Z"
+    },
+    {
+      "user_id": "user_00003",
+      "deal_id": "deal_00001",
+      "interaction": 1.0,
+      "joinedAt": "2026-03-06T21:10:38Z"
+    },
+    {
+      "user_id": "user_00003",
+      "deal_id": "deal_00002",
+      "interaction": 1.0,
+      "joinedAt": "2026-03-01T11:10:38Z"
+    },
+    {
+      "user_id": "user_00003",
+      "deal_id": "deal_00005",
+      "interaction": 1.0,
+      "joinedAt": "2025-12-25T16:10:38Z"
+    },
+    {
+      "user_id": "user_00003",
+      "deal_id": "deal_00004",
+      "interaction": 1.0,
+      "joinedAt": "2026-02-20T02:10:38Z"
+    },
+    {
+      "user_id": "user_00003",
+      "deal_id": "deal_00003",
+      "interaction": 1.0,
+      "joinedAt": "2026-02-13T09:10:38Z"
+    }
+  ]
+}

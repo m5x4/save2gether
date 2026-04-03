@@ -1,0 +1,68 @@
+[
+  {
+    "id": "deal_00001",
+    "dealName": "Retail Promo #1",
+    "merchantName": "Smart Goods",
+    "category": "Retail",
+    "location": "Paya Lebar, Singapore",
+    "numRequired": 11,
+    "clickCount": 7,
+    "createdDateTime": "2026-03-05T19:10:38Z",
+    "validUntil": "2026-05-11T17:10:38Z"
+  },
+  {
+    "id": "deal_00002",
+    "dealName": "Lifestyle & Fitness Promo #2",
+    "merchantName": "Core Studio",
+    "category": "Lifestyle & Fitness",
+    "location": "Paya Lebar, Singapore",
+    "numRequired": 2,
+    "clickCount": 34,
+    "createdDateTime": "2026-03-06T02:10:38Z",
+    "validUntil": "2026-04-13T13:10:38Z"
+  },
+  {
+    "id": "deal_00003",
+    "dealName": "Games & Entertainment Promo #3",
+    "merchantName": "Game Vault",
+    "category": "Games & Entertainment",
+    "location": "Jurong, Singapore",
+    "numRequired": 5,
+    "clickCount": 21,
+    "createdDateTime": "2026-03-05T15:10:38Z",
+    "validUntil": "2026-05-14T07:10:38Z"
+  },
+  {
+    "id": "deal_00004",
+    "dealName": "Games & Entertainment Promo #4",
+    "merchantName": "FunHub",
+    "category": "Games & Entertainment",
+    "location": "Jurong, Singapore",
+    "numRequired": 12,
+    "clickCount": 23,
+    "createdDateTime": "2026-02-12T21:10:38Z",
+    "validUntil": "2026-04-25T01:10:38Z"
+  },
+  {
+    "id": "deal_00005",
+    "dealName": "Travel & Attractions Promo #5",
+    "merchantName": "Island Hopper",
+    "category": "Travel & Attractions",
+    "location": "Bishan, Singapore",
+    "numRequired": 3,
+    "clickCount": 30,
+    "createdDateTime": "2026-04-02T14:10:38Z",
+    "validUntil": "2026-04-10T01:10:38Z"
+  },
+  {
+    "id": "deal_00006",
+    "dealName": "Travel & Attractions Promo #6",
+    "merchantName": "Skyline Tours",
+    "category": "Travel & Attractions",
+    "location": "Orchard, Singapore",
+    "numRequired": 12,
+    "clickCount": 14,
+    "createdDateTime": "2026-02-14T04:10:38Z",
+    "validUntil": "2026-05-06T20:10:38Z"
+  }
+]
