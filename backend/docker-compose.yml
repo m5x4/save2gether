@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000,http://127.0.0.1:5173
+      - FIREBASE_CREDENTIALS_PATH=/app/firebase-credentials.json
+      - SVD_COMPONENTS=20
+      - SVD_MIN_INTERACTIONS=5
+    volumes:
+      - ./app:/app/app
+      - ./firebase-credentials.json:/app/firebase-credentials.json:ro
+      - ./logs:/app/logs
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

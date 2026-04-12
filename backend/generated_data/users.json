@@ -3,28 +3,43 @@
     "id": "user_00001",
     "name": "User 1",
     "preferredCategories": [
-      "Lifestyle & Fitness"
+      "Food & Beverage",
+      "Games & Entertainment"
     ],
     "deals": [
-      "deal_00003",
-      "deal_00006",
-      "deal_00002",
-      "deal_00001"
+      "deal_00034",
+      "deal_00089",
+      "deal_00200",
+      "deal_00148",
+      "deal_00223",
+      "deal_00252",
+      "deal_00168",
+      "deal_00258",
+      "deal_00147",
+      "deal_00112",
+      "deal_00291",
+      "deal_00048",
+      "deal_00197",
+      "deal_00130",
+      "deal_00226",
+      "deal_00096",
+      "deal_00014"
     ]
   },
   {
     "id": "user_00002",
     "name": "User 2",
     "preferredCategories": [
-      "Food & Beverage"
+      "Lifestyle & Fitness",
+      "Retail"
     ],
     "deals": [
-      "deal_00001",
-      "deal_00005",
-      "deal_00002",
       "deal_00004",
-      "deal_00003",
-      "deal_00006"
+      "deal_00279",
+      "deal_00106",
+      "deal_00159",
+      "deal_00094",
+      "deal_00011"
     ]
   },
   {
@@ -33,13 +48,3725 @@
     "preferredCategories": [
       "Food & Beverage"
     ],
+    "deals": []
+  },
+  {
+    "id": "user_00004",
+    "name": "User 4",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00005",
+    "name": "User 5",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00006",
+    "name": "User 6",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Lifestyle & Fitness"
+    ],
     "deals": [
+      "deal_00123",
+      "deal_00079",
+      "deal_00259",
+      "deal_00160",
+      "deal_00249",
+      "deal_00038",
+      "deal_00048",
+      "deal_00191",
+      "deal_00090"
+    ]
+  },
+  {
+    "id": "user_00007",
+    "name": "User 7",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00047",
+      "deal_00131",
+      "deal_00189",
+      "deal_00212",
+      "deal_00225",
+      "deal_00067",
+      "deal_00121",
+      "deal_00066",
+      "deal_00181",
+      "deal_00019",
+      "deal_00263",
+      "deal_00005",
+      "deal_00117",
+      "deal_00105",
+      "deal_00136",
+      "deal_00247",
+      "deal_00142",
+      "deal_00171",
+      "deal_00043"
+    ]
+  },
+  {
+    "id": "user_00008",
+    "name": "User 8",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00078",
+      "deal_00108",
+      "deal_00276",
+      "deal_00053",
+      "deal_00054"
+    ]
+  },
+  {
+    "id": "user_00009",
+    "name": "User 9",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00010",
+    "name": "User 10",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00137",
+      "deal_00254",
+      "deal_00223",
+      "deal_00036",
+      "deal_00032",
+      "deal_00233",
+      "deal_00060",
+      "deal_00260",
+      "deal_00228",
+      "deal_00002",
+      "deal_00255",
+      "deal_00062",
+      "deal_00014",
+      "deal_00218"
+    ]
+  },
+  {
+    "id": "user_00011",
+    "name": "User 11",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00267",
+      "deal_00038",
+      "deal_00278",
+      "deal_00002",
+      "deal_00233",
+      "deal_00222",
+      "deal_00186",
+      "deal_00051",
+      "deal_00060",
+      "deal_00260",
+      "deal_00080",
+      "deal_00255",
+      "deal_00147",
+      "deal_00030",
+      "deal_00215"
+    ]
+  },
+  {
+    "id": "user_00012",
+    "name": "User 12",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00010",
+      "deal_00090",
+      "deal_00155",
+      "deal_00179",
+      "deal_00003",
+      "deal_00230",
+      "deal_00214",
+      "deal_00252",
+      "deal_00198",
+      "deal_00209",
+      "deal_00139",
+      "deal_00297",
+      "deal_00009",
+      "deal_00290",
+      "deal_00293",
+      "deal_00089"
+    ]
+  },
+  {
+    "id": "user_00013",
+    "name": "User 13",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00067",
+      "deal_00282",
+      "deal_00041",
+      "deal_00206",
+      "deal_00027",
+      "deal_00031",
+      "deal_00146",
+      "deal_00114",
+      "deal_00042",
+      "deal_00129",
+      "deal_00212"
+    ]
+  },
+  {
+    "id": "user_00014",
+    "name": "User 14",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00083",
+      "deal_00299",
+      "deal_00037",
+      "deal_00122",
+      "deal_00134",
+      "deal_00211",
+      "deal_00075",
+      "deal_00135",
+      "deal_00240",
+      "deal_00061",
+      "deal_00023",
+      "deal_00261"
+    ]
+  },
+  {
+    "id": "user_00015",
+    "name": "User 15",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00255",
+      "deal_00087",
+      "deal_00002",
+      "deal_00218",
+      "deal_00038",
+      "deal_00051",
+      "deal_00044",
+      "deal_00079",
+      "deal_00260",
+      "deal_00007",
+      "deal_00186",
+      "deal_00062",
+      "deal_00084",
+      "deal_00112",
+      "deal_00163",
+      "deal_00014"
+    ]
+  },
+  {
+    "id": "user_00016",
+    "name": "User 16",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00137",
+      "deal_00233",
+      "deal_00300",
+      "deal_00278",
+      "deal_00028",
+      "deal_00186",
+      "deal_00057",
+      "deal_00254",
+      "deal_00259",
+      "deal_00007",
+      "deal_00291",
+      "deal_00044",
+      "deal_00255",
+      "deal_00224",
+      "deal_00080",
+      "deal_00229",
+      "deal_00228",
+      "deal_00033"
+    ]
+  },
+  {
+    "id": "user_00017",
+    "name": "User 17",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00025",
+      "deal_00068",
+      "deal_00239",
+      "deal_00064",
+      "deal_00063",
+      "deal_00191",
+      "deal_00155",
+      "deal_00029",
+      "deal_00244",
+      "deal_00235",
+      "deal_00214",
+      "deal_00145",
+      "deal_00125"
+    ]
+  },
+  {
+    "id": "user_00018",
+    "name": "User 18",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00034",
+      "deal_00088",
+      "deal_00230",
+      "deal_00168"
+    ]
+  },
+  {
+    "id": "user_00019",
+    "name": "User 19",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00181",
+      "deal_00286",
+      "deal_00234",
+      "deal_00189",
+      "deal_00199",
+      "deal_00099",
+      "deal_00005",
+      "deal_00049"
+    ]
+  },
+  {
+    "id": "user_00020",
+    "name": "User 20",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00056",
+      "deal_00135",
+      "deal_00264",
+      "deal_00183",
+      "deal_00192",
+      "deal_00065",
+      "deal_00046",
+      "deal_00261",
+      "deal_00102",
+      "deal_00109",
+      "deal_00280",
+      "deal_00052",
+      "deal_00070",
+      "deal_00119",
+      "deal_00208"
+    ]
+  },
+  {
+    "id": "user_00021",
+    "name": "User 21",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00022",
+    "name": "User 22",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00020",
+      "deal_00092",
+      "deal_00108",
+      "deal_00074",
+      "deal_00200",
+      "deal_00170",
+      "deal_00034",
+      "deal_00003",
+      "deal_00050",
+      "deal_00089",
+      "deal_00013",
+      "deal_00246",
+      "deal_00096",
+      "deal_00139",
+      "deal_00158",
+      "deal_00213",
+      "deal_00015",
+      "deal_00188"
+    ]
+  },
+  {
+    "id": "user_00023",
+    "name": "User 23",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00220",
+      "deal_00104",
+      "deal_00284",
+      "deal_00211",
+      "deal_00141",
+      "deal_00073",
+      "deal_00046",
+      "deal_00081",
+      "deal_00122",
+      "deal_00118",
+      "deal_00292",
+      "deal_00274",
+      "deal_00143",
+      "deal_00082",
+      "deal_00238"
+    ]
+  },
+  {
+    "id": "user_00024",
+    "name": "User 24",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00025",
+    "name": "User 25",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00180",
+      "deal_00229",
+      "deal_00233",
+      "deal_00228",
+      "deal_00156",
+      "deal_00080"
+    ]
+  },
+  {
+    "id": "user_00026",
+    "name": "User 26",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00222",
+      "deal_00007",
+      "deal_00112",
+      "deal_00060",
+      "deal_00086",
+      "deal_00080",
+      "deal_00255",
+      "deal_00072",
+      "deal_00258",
+      "deal_00259",
+      "deal_00218",
+      "deal_00291",
+      "deal_00044"
+    ]
+  },
+  {
+    "id": "user_00027",
+    "name": "User 27",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00028",
+    "name": "User 28",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00223",
+      "deal_00148",
+      "deal_00001",
+      "deal_00257",
+      "deal_00101",
+      "deal_00158",
+      "deal_00215",
+      "deal_00014",
+      "deal_00072"
+    ]
+  },
+  {
+    "id": "user_00029",
+    "name": "User 29",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00030",
+    "name": "User 30",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00279",
+      "deal_00217",
+      "deal_00235",
+      "deal_00107",
+      "deal_00157",
+      "deal_00009",
+      "deal_00265",
+      "deal_00251",
+      "deal_00004"
+    ]
+  },
+  {
+    "id": "user_00031",
+    "name": "User 31",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00194",
+      "deal_00241",
+      "deal_00129",
+      "deal_00027",
+      "deal_00161",
+      "deal_00189",
+      "deal_00247",
+      "deal_00116",
+      "deal_00181",
+      "deal_00175",
+      "deal_00085",
+      "deal_00024"
+    ]
+  },
+  {
+    "id": "user_00032",
+    "name": "User 32",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00057",
+      "deal_00100",
+      "deal_00087",
+      "deal_00002",
+      "deal_00224",
+      "deal_00167",
+      "deal_00038",
+      "deal_00229",
+      "deal_00048",
+      "deal_00147",
+      "deal_00255",
+      "deal_00267"
+    ]
+  },
+  {
+    "id": "user_00033",
+    "name": "User 33",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00260",
+      "deal_00265",
+      "deal_00254",
+      "deal_00090",
+      "deal_00004",
+      "deal_00051",
+      "deal_00030",
+      "deal_00125",
+      "deal_00106",
+      "deal_00123",
+      "deal_00009",
+      "deal_00100"
+    ]
+  },
+  {
+    "id": "user_00034",
+    "name": "User 34",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00035",
+    "name": "User 35",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00202",
+      "deal_00068",
+      "deal_00265",
+      "deal_00262",
+      "deal_00063",
+      "deal_00160",
+      "deal_00159",
+      "deal_00166"
+    ]
+  },
+  {
+    "id": "user_00036",
+    "name": "User 36",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00190",
+      "deal_00071",
+      "deal_00284",
+      "deal_00191",
+      "deal_00040",
+      "deal_00029",
+      "deal_00246",
+      "deal_00266",
+      "deal_00293",
+      "deal_00295",
+      "deal_00249",
+      "deal_00078",
+      "deal_00106",
+      "deal_00289"
+    ]
+  },
+  {
+    "id": "user_00037",
+    "name": "User 37",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00028",
+      "deal_00048",
+      "deal_00256"
+    ]
+  },
+  {
+    "id": "user_00038",
+    "name": "User 38",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00215",
+      "deal_00057",
+      "deal_00167",
+      "deal_00032",
+      "deal_00257",
+      "deal_00028"
+    ]
+  },
+  {
+    "id": "user_00039",
+    "name": "User 39",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00124",
+      "deal_00041",
+      "deal_00241",
+      "deal_00131",
+      "deal_00297",
+      "deal_00179",
+      "deal_00009",
+      "deal_00076",
+      "deal_00106",
+      "deal_00049",
+      "deal_00016",
+      "deal_00272"
+    ]
+  },
+  {
+    "id": "user_00040",
+    "name": "User 40",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00261",
+      "deal_00270",
+      "deal_00023",
+      "deal_00061",
+      "deal_00178",
+      "deal_00104"
+    ]
+  },
+  {
+    "id": "user_00041",
+    "name": "User 41",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00242",
+      "deal_00192",
+      "deal_00132",
+      "deal_00119",
+      "deal_00270",
+      "deal_00061",
+      "deal_00059",
+      "deal_00203",
+      "deal_00299",
+      "deal_00240",
+      "deal_00052"
+    ]
+  },
+  {
+    "id": "user_00042",
+    "name": "User 42",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00043",
+    "name": "User 43",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00112",
+      "deal_00007",
+      "deal_00001",
+      "deal_00278",
+      "deal_00051",
+      "deal_00174",
+      "deal_00272",
+      "deal_00079",
+      "deal_00043",
+      "deal_00048",
+      "deal_00136",
+      "deal_00176",
+      "deal_00062",
+      "deal_00194",
+      "deal_00215",
+      "deal_00286",
+      "deal_00291",
+      "deal_00024",
+      "deal_00036"
+    ]
+  },
+  {
+    "id": "user_00044",
+    "name": "User 44",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00045",
+    "name": "User 45",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00219",
       "deal_00006",
+      "deal_00053",
+      "deal_00255",
+      "deal_00167",
+      "deal_00170",
+      "deal_00158",
+      "deal_00197",
+      "deal_00150",
+      "deal_00108",
+      "deal_00013",
+      "deal_00089"
+    ]
+  },
+  {
+    "id": "user_00046",
+    "name": "User 46",
+    "preferredCategories": [
+      "Retail",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00119",
+      "deal_00258",
+      "deal_00242",
+      "deal_00299",
+      "deal_00163",
+      "deal_00110",
+      "deal_00073",
+      "deal_00264",
+      "deal_00257"
+    ]
+  },
+  {
+    "id": "user_00047",
+    "name": "User 47",
+    "preferredCategories": [
+      "Retail",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00187",
+      "deal_00094",
+      "deal_00270",
+      "deal_00118",
+      "deal_00265",
+      "deal_00063",
+      "deal_00261",
+      "deal_00296"
+    ]
+  },
+  {
+    "id": "user_00048",
+    "name": "User 48",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00013",
+      "deal_00114",
+      "deal_00010",
+      "deal_00149",
+      "deal_00174",
+      "deal_00050",
+      "deal_00276",
+      "deal_00017",
+      "deal_00246",
+      "deal_00234",
+      "deal_00054",
+      "deal_00161",
+      "deal_00045",
+      "deal_00175",
+      "deal_00212",
+      "deal_00281",
+      "deal_00034",
+      "deal_00194",
+      "deal_00103",
+      "deal_00170"
+    ]
+  },
+  {
+    "id": "user_00049",
+    "name": "User 49",
+    "preferredCategories": [
+      "Retail",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00172",
+      "deal_00056",
+      "deal_00270",
+      "deal_00292",
+      "deal_00217",
+      "deal_00160",
+      "deal_00293",
+      "deal_00061",
+      "deal_00191",
+      "deal_00134",
+      "deal_00262",
+      "deal_00249"
+    ]
+  },
+  {
+    "id": "user_00050",
+    "name": "User 50",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00168",
+      "deal_00158",
+      "deal_00089",
+      "deal_00224",
+      "deal_00003",
+      "deal_00007",
+      "deal_00259",
+      "deal_00015",
+      "deal_00258",
+      "deal_00060",
+      "deal_00150",
+      "deal_00079",
+      "deal_00222",
+      "deal_00200",
+      "deal_00167",
+      "deal_00033"
+    ]
+  },
+  {
+    "id": "user_00051",
+    "name": "User 51",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00051",
+      "deal_00215",
+      "deal_00267",
+      "deal_00057",
+      "deal_00007",
+      "deal_00259",
+      "deal_00087",
+      "deal_00254",
+      "deal_00030",
+      "deal_00062",
+      "deal_00224",
+      "deal_00002",
+      "deal_00137",
+      "deal_00233",
+      "deal_00128",
+      "deal_00120",
+      "deal_00110"
+    ]
+  },
+  {
+    "id": "user_00052",
+    "name": "User 52",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00007",
+      "deal_00028",
+      "deal_00044",
+      "deal_00062",
+      "deal_00014",
+      "deal_00256",
+      "deal_00267",
+      "deal_00101",
+      "deal_00120",
+      "deal_00100",
+      "deal_00084",
+      "deal_00110",
+      "deal_00033"
+    ]
+  },
+  {
+    "id": "user_00053",
+    "name": "User 53",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00061",
+      "deal_00119",
+      "deal_00231",
+      "deal_00144",
+      "deal_00292",
+      "deal_00059",
+      "deal_00192",
+      "deal_00271",
+      "deal_00220",
+      "deal_00193"
+    ]
+  },
+  {
+    "id": "user_00054",
+    "name": "User 54",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00064",
+      "deal_00081",
+      "deal_00217",
+      "deal_00107",
+      "deal_00040",
+      "deal_00238",
+      "deal_00202",
+      "deal_00025",
+      "deal_00262",
+      "deal_00298",
+      "deal_00191",
+      "deal_00232",
+      "deal_00029",
+      "deal_00236",
+      "deal_00118",
+      "deal_00090",
+      "deal_00207",
+      "deal_00295",
+      "deal_00155"
+    ]
+  },
+  {
+    "id": "user_00055",
+    "name": "User 55",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00135",
+      "deal_00056",
+      "deal_00185",
+      "deal_00052",
+      "deal_00094",
+      "deal_00242",
+      "deal_00271",
+      "deal_00070",
+      "deal_00208",
+      "deal_00164",
+      "deal_00203",
+      "deal_00270"
+    ]
+  },
+  {
+    "id": "user_00056",
+    "name": "User 56",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00045",
+      "deal_00199",
+      "deal_00012",
+      "deal_00149",
+      "deal_00290",
+      "deal_00296",
+      "deal_00125",
+      "deal_00179",
+      "deal_00097",
+      "deal_00105",
+      "deal_00040",
+      "deal_00035",
+      "deal_00239",
+      "deal_00098",
+      "deal_00160",
+      "deal_00279",
+      "deal_00021",
+      "deal_00184",
+      "deal_00146"
+    ]
+  },
+  {
+    "id": "user_00057",
+    "name": "User 57",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00268",
+      "deal_00125",
+      "deal_00262",
+      "deal_00285",
+      "deal_00004",
+      "deal_00284",
+      "deal_00160",
+      "deal_00090",
+      "deal_00187",
+      "deal_00107",
+      "deal_00064",
+      "deal_00068",
+      "deal_00216",
+      "deal_00266"
+    ]
+  },
+  {
+    "id": "user_00058",
+    "name": "User 58",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00128",
+      "deal_00087",
+      "deal_00291",
+      "deal_00215",
+      "deal_00258",
+      "deal_00224",
+      "deal_00255",
+      "deal_00275"
+    ]
+  },
+  {
+    "id": "user_00059",
+    "name": "User 59",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00248",
+      "deal_00105",
+      "deal_00022",
+      "deal_00273",
+      "deal_00089",
+      "deal_00006",
+      "deal_00055",
+      "deal_00243",
+      "deal_00149",
+      "deal_00196",
+      "deal_00116",
+      "deal_00127",
+      "deal_00241"
+    ]
+  },
+  {
+    "id": "user_00060",
+    "name": "User 60",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00122",
+      "deal_00083",
+      "deal_00220",
+      "deal_00271",
+      "deal_00052",
+      "deal_00164"
+    ]
+  },
+  {
+    "id": "user_00061",
+    "name": "User 61",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00119",
+      "deal_00056",
+      "deal_00126",
+      "deal_00164",
+      "deal_00083",
+      "deal_00144",
+      "deal_00154",
+      "deal_00185",
+      "deal_00299",
+      "deal_00113",
+      "deal_00069",
+      "deal_00151",
+      "deal_00143"
+    ]
+  },
+  {
+    "id": "user_00062",
+    "name": "User 62",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00215",
+      "deal_00218",
+      "deal_00001"
+    ]
+  },
+  {
+    "id": "user_00063",
+    "name": "User 63",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00275",
+      "deal_00087",
+      "deal_00215",
+      "deal_00060",
+      "deal_00291",
+      "deal_00008",
+      "deal_00229",
+      "deal_00036",
+      "deal_00120",
+      "deal_00001",
+      "deal_00257",
+      "deal_00260",
+      "deal_00128",
+      "deal_00044",
+      "deal_00228"
+    ]
+  },
+  {
+    "id": "user_00064",
+    "name": "User 64",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00156",
+      "deal_00281",
+      "deal_00024",
+      "deal_00005",
+      "deal_00003",
+      "deal_00108",
+      "deal_00055",
+      "deal_00098",
+      "deal_00047",
+      "deal_00245",
+      "deal_00074"
+    ]
+  },
+  {
+    "id": "user_00065",
+    "name": "User 65",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00066",
+    "name": "User 66",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00192",
+      "deal_00073",
+      "deal_00104",
+      "deal_00280",
+      "deal_00141",
+      "deal_00023",
+      "deal_00242",
+      "deal_00083",
+      "deal_00056",
+      "deal_00185"
+    ]
+  },
+  {
+    "id": "user_00067",
+    "name": "User 67",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00081",
+      "deal_00082",
+      "deal_00107",
+      "deal_00217",
+      "deal_00064",
+      "deal_00035",
+      "deal_00290",
+      "deal_00236",
+      "deal_00235",
+      "deal_00214",
+      "deal_00262"
+    ]
+  },
+  {
+    "id": "user_00068",
+    "name": "User 68",
+    "preferredCategories": [
+      "Retail",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00292",
+      "deal_00211",
+      "deal_00092",
+      "deal_00104"
+    ]
+  },
+  {
+    "id": "user_00069",
+    "name": "User 69",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00217",
+      "deal_00192",
+      "deal_00124",
+      "deal_00172",
+      "deal_00179",
+      "deal_00271",
+      "deal_00216",
+      "deal_00118",
+      "deal_00265",
+      "deal_00262",
+      "deal_00126",
+      "deal_00235",
+      "deal_00244"
+    ]
+  },
+  {
+    "id": "user_00070",
+    "name": "User 70",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00190",
+      "deal_00123",
+      "deal_00179",
+      "deal_00106",
+      "deal_00283",
+      "deal_00011",
+      "deal_00040",
+      "deal_00071",
+      "deal_00090",
+      "deal_00111",
+      "deal_00279",
+      "deal_00035",
+      "deal_00251",
+      "deal_00124",
+      "deal_00159",
+      "deal_00216",
+      "deal_00268",
+      "deal_00155",
+      "deal_00172"
+    ]
+  },
+  {
+    "id": "user_00071",
+    "name": "User 71",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00238",
+      "deal_00207",
+      "deal_00155",
+      "deal_00285",
+      "deal_00262",
+      "deal_00293",
+      "deal_00244",
+      "deal_00179",
+      "deal_00159",
+      "deal_00064",
+      "deal_00279",
+      "deal_00040"
+    ]
+  },
+  {
+    "id": "user_00072",
+    "name": "User 72",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00208",
+      "deal_00126",
+      "deal_00059",
+      "deal_00143",
+      "deal_00069",
+      "deal_00037",
+      "deal_00113",
+      "deal_00274",
+      "deal_00264",
+      "deal_00134"
+    ]
+  },
+  {
+    "id": "user_00073",
+    "name": "User 73",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00067",
+      "deal_00194",
+      "deal_00019",
+      "deal_00250",
+      "deal_00170",
+      "deal_00213",
+      "deal_00003",
+      "deal_00199",
+      "deal_00206",
+      "deal_00245",
+      "deal_00041",
+      "deal_00006",
+      "deal_00253",
+      "deal_00277",
+      "deal_00043",
+      "deal_00010",
+      "deal_00021",
+      "deal_00209"
+    ]
+  },
+  {
+    "id": "user_00074",
+    "name": "User 74",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00064",
+      "deal_00040",
+      "deal_00173",
+      "deal_00172",
+      "deal_00239",
+      "deal_00187",
+      "deal_00123",
+      "deal_00071"
+    ]
+  },
+  {
+    "id": "user_00075",
+    "name": "User 75",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00294",
+      "deal_00142",
+      "deal_00212",
+      "deal_00099",
+      "deal_00243",
+      "deal_00281",
+      "deal_00018",
+      "deal_00205",
+      "deal_00021",
+      "deal_00146",
+      "deal_00049",
+      "deal_00241",
+      "deal_00225",
+      "deal_00210",
+      "deal_00041",
+      "deal_00196",
+      "deal_00077",
+      "deal_00199"
+    ]
+  },
+  {
+    "id": "user_00076",
+    "name": "User 76",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00231",
+      "deal_00151",
+      "deal_00115",
+      "deal_00075",
+      "deal_00292",
+      "deal_00154",
+      "deal_00192",
+      "deal_00185"
+    ]
+  },
+  {
+    "id": "user_00077",
+    "name": "User 77",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00130",
+      "deal_00078",
+      "deal_00158",
+      "deal_00197",
+      "deal_00089",
+      "deal_00250",
+      "deal_00213"
+    ]
+  },
+  {
+    "id": "user_00078",
+    "name": "User 78",
+    "preferredCategories": [
+      "Retail",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00231",
+      "deal_00190",
+      "deal_00178",
+      "deal_00238",
+      "deal_00279",
+      "deal_00081",
+      "deal_00061",
+      "deal_00109",
+      "deal_00192",
+      "deal_00154",
+      "deal_00270",
+      "deal_00023",
+      "deal_00152",
+      "deal_00274",
+      "deal_00126",
+      "deal_00046",
+      "deal_00251",
+      "deal_00216",
+      "deal_00151",
+      "deal_00184"
+    ]
+  },
+  {
+    "id": "user_00079",
+    "name": "User 79",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Travel & Attractions"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00080",
+    "name": "User 80",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00252",
+      "deal_00050",
+      "deal_00130"
+    ]
+  },
+  {
+    "id": "user_00081",
+    "name": "User 81",
+    "preferredCategories": [
+      "Retail",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00196",
+      "deal_00178",
+      "deal_00056",
+      "deal_00069"
+    ]
+  },
+  {
+    "id": "user_00082",
+    "name": "User 82",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00140",
+      "deal_00054",
+      "deal_00188",
+      "deal_00022",
+      "deal_00219",
+      "deal_00096",
+      "deal_00013",
+      "deal_00197",
+      "deal_00092"
+    ]
+  },
+  {
+    "id": "user_00083",
+    "name": "User 83",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00237",
+      "deal_00096",
+      "deal_00170",
+      "deal_00230",
+      "deal_00074",
+      "deal_00050",
+      "deal_00148",
+      "deal_00092",
+      "deal_00156",
+      "deal_00213",
+      "deal_00088",
+      "deal_00108",
+      "deal_00276"
+    ]
+  },
+  {
+    "id": "user_00084",
+    "name": "User 84",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00085",
+    "name": "User 85",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00086",
+    "name": "User 86",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00230",
+      "deal_00013",
+      "deal_00096",
+      "deal_00252",
+      "deal_00209",
+      "deal_00201",
+      "deal_00226",
+      "deal_00022",
+      "deal_00237",
+      "deal_00170",
+      "deal_00140"
+    ]
+  },
+  {
+    "id": "user_00087",
+    "name": "User 87",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00088",
+    "name": "User 88",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00228",
+      "deal_00142",
+      "deal_00080",
+      "deal_00133",
+      "deal_00294",
+      "deal_00281",
+      "deal_00169"
+    ]
+  },
+  {
+    "id": "user_00089",
+    "name": "User 89",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00278",
+      "deal_00143",
+      "deal_00051",
+      "deal_00057",
+      "deal_00052",
+      "deal_00267",
+      "deal_00094",
+      "deal_00086",
+      "deal_00070",
+      "deal_00132",
+      "deal_00112",
+      "deal_00032",
+      "deal_00151",
+      "deal_00186",
+      "deal_00261"
+    ]
+  },
+  {
+    "id": "user_00090",
+    "name": "User 90",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00278",
+      "deal_00260",
+      "deal_00256",
+      "deal_00233",
+      "deal_00001",
+      "deal_00215",
+      "deal_00030",
+      "deal_00100",
+      "deal_00007",
+      "deal_00048"
+    ]
+  },
+  {
+    "id": "user_00091",
+    "name": "User 91",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00092",
+    "name": "User 92",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00197",
+      "deal_00003",
+      "deal_00096",
+      "deal_00074",
+      "deal_00245",
+      "deal_00188",
+      "deal_00246",
+      "deal_00006",
+      "deal_00237",
+      "deal_00168",
+      "deal_00053",
+      "deal_00095",
+      "deal_00289",
+      "deal_00015",
+      "deal_00088",
+      "deal_00230",
+      "deal_00140"
+    ]
+  },
+  {
+    "id": "user_00093",
+    "name": "User 93",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00111",
+      "deal_00045",
+      "deal_00205",
+      "deal_00290",
+      "deal_00076",
+      "deal_00082",
+      "deal_00136",
+      "deal_00146",
+      "deal_00098",
+      "deal_00293",
+      "deal_00265",
+      "deal_00181",
+      "deal_00011",
+      "deal_00129",
+      "deal_00077"
+    ]
+  },
+  {
+    "id": "user_00094",
+    "name": "User 94",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00126",
+      "deal_00274",
+      "deal_00264",
+      "deal_00280",
+      "deal_00083",
+      "deal_00208",
+      "deal_00052",
+      "deal_00069",
+      "deal_00203",
+      "deal_00151",
+      "deal_00093",
+      "deal_00143"
+    ]
+  },
+  {
+    "id": "user_00095",
+    "name": "User 95",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00096",
+    "name": "User 96",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00205",
+      "deal_00294",
+      "deal_00204",
+      "deal_00019",
+      "deal_00277",
+      "deal_00287",
+      "deal_00243",
+      "deal_00142",
+      "deal_00099",
+      "deal_00136"
+    ]
+  },
+  {
+    "id": "user_00097",
+    "name": "User 97",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00098",
+    "name": "User 98",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00137",
+      "deal_00087",
+      "deal_00228",
+      "deal_00150",
+      "deal_00120",
+      "deal_00215",
+      "deal_00007",
+      "deal_00060",
+      "deal_00086",
+      "deal_00062"
+    ]
+  },
+  {
+    "id": "user_00099",
+    "name": "User 99",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00025",
+      "deal_00103",
+      "deal_00123",
+      "deal_00187",
+      "deal_00130",
+      "deal_00029",
+      "deal_00168",
+      "deal_00179",
+      "deal_00279",
+      "deal_00232",
+      "deal_00190",
+      "deal_00058",
+      "deal_00054"
+    ]
+  },
+  {
+    "id": "user_00100",
+    "name": "User 100",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00224",
+      "deal_00278",
+      "deal_00060",
+      "deal_00036",
+      "deal_00259",
+      "deal_00275",
+      "deal_00001",
+      "deal_00228",
+      "deal_00002",
+      "deal_00120",
+      "deal_00112",
+      "deal_00254"
+    ]
+  },
+  {
+    "id": "user_00101",
+    "name": "User 101",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00033",
+      "deal_00002",
+      "deal_00167",
+      "deal_00186"
+    ]
+  },
+  {
+    "id": "user_00102",
+    "name": "User 102",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00022",
+      "deal_00127",
+      "deal_00168",
+      "deal_00273",
+      "deal_00013",
+      "deal_00078",
+      "deal_00095",
+      "deal_00096",
+      "deal_00010",
+      "deal_00130",
+      "deal_00170",
+      "deal_00074",
+      "deal_00020",
+      "deal_00219",
+      "deal_00088",
+      "deal_00158",
+      "deal_00188",
+      "deal_00226",
+      "deal_00201",
+      "deal_00015"
+    ]
+  },
+  {
+    "id": "user_00103",
+    "name": "User 103",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00260",
+      "deal_00223",
+      "deal_00081",
+      "deal_00125",
+      "deal_00002",
+      "deal_00100",
+      "deal_00180",
+      "deal_00217",
+      "deal_00218",
+      "deal_00040",
+      "deal_00224",
+      "deal_00001",
+      "deal_00172",
+      "deal_00254",
+      "deal_00190",
+      "deal_00123"
+    ]
+  },
+  {
+    "id": "user_00104",
+    "name": "User 104",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00158",
+      "deal_00088",
+      "deal_00252",
+      "deal_00226",
+      "deal_00010",
+      "deal_00020",
+      "deal_00237",
+      "deal_00089",
+      "deal_00096"
+    ]
+  },
+  {
+    "id": "user_00105",
+    "name": "User 105",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00055",
+      "deal_00099",
+      "deal_00027",
+      "deal_00212",
+      "deal_00210",
+      "deal_00277",
+      "deal_00142",
+      "deal_00012",
+      "deal_00153",
+      "deal_00162",
+      "deal_00047",
+      "deal_00281"
+    ]
+  },
+  {
+    "id": "user_00106",
+    "name": "User 106",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00027",
+      "deal_00210",
+      "deal_00205",
+      "deal_00012"
+    ]
+  },
+  {
+    "id": "user_00107",
+    "name": "User 107",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00197",
+      "deal_00058",
+      "deal_00020",
+      "deal_00015",
+      "deal_00276",
+      "deal_00156",
+      "deal_00013",
+      "deal_00148",
+      "deal_00158",
+      "deal_00078",
+      "deal_00252",
+      "deal_00227",
+      "deal_00168",
+      "deal_00034",
+      "deal_00089",
+      "deal_00246",
+      "deal_00139"
+    ]
+  },
+  {
+    "id": "user_00108",
+    "name": "User 108",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00076",
+      "deal_00207",
+      "deal_00051",
+      "deal_00128",
+      "deal_00284",
+      "deal_00259",
+      "deal_00107",
+      "deal_00233",
+      "deal_00179",
+      "deal_00236",
+      "deal_00145",
+      "deal_00255",
+      "deal_00217",
+      "deal_00218",
+      "deal_00216",
+      "deal_00293",
+      "deal_00040"
+    ]
+  },
+  {
+    "id": "user_00109",
+    "name": "User 109",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00110",
+    "name": "User 110",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00156",
+      "deal_00088",
+      "deal_00201",
+      "deal_00022",
+      "deal_00200",
+      "deal_00219",
+      "deal_00209",
+      "deal_00245",
+      "deal_00013",
+      "deal_00148",
+      "deal_00078",
+      "deal_00015",
+      "deal_00108",
+      "deal_00074",
+      "deal_00096",
+      "deal_00170"
+    ]
+  },
+  {
+    "id": "user_00111",
+    "name": "User 111",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00277",
+      "deal_00281",
+      "deal_00196",
+      "deal_00263",
+      "deal_00294",
+      "deal_00165",
+      "deal_00174",
+      "deal_00142",
+      "deal_00234",
+      "deal_00225",
+      "deal_00018",
+      "deal_00247"
+    ]
+  },
+  {
+    "id": "user_00112",
+    "name": "User 112",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00113",
+    "name": "User 113",
+    "preferredCategories": [
+      "Retail",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00192",
+      "deal_00212",
+      "deal_00094",
+      "deal_00037",
+      "deal_00131",
+      "deal_00113",
+      "deal_00234"
+    ]
+  },
+  {
+    "id": "user_00114",
+    "name": "User 114",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00154",
+      "deal_00235",
+      "deal_00155",
+      "deal_00251",
+      "deal_00004",
+      "deal_00288",
+      "deal_00115",
+      "deal_00104",
+      "deal_00173",
+      "deal_00242",
+      "deal_00037",
+      "deal_00026",
+      "deal_00029",
+      "deal_00283",
+      "deal_00221",
+      "deal_00046",
+      "deal_00274",
+      "deal_00068",
+      "deal_00119",
+      "deal_00293"
+    ]
+  },
+  {
+    "id": "user_00115",
+    "name": "User 115",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Games & Entertainment"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00116",
+    "name": "User 116",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00197",
+      "deal_00074",
+      "deal_00213",
+      "deal_00006"
+    ]
+  },
+  {
+    "id": "user_00117",
+    "name": "User 117",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00089",
+      "deal_00294",
+      "deal_00226"
+    ]
+  },
+  {
+    "id": "user_00118",
+    "name": "User 118",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00283",
+      "deal_00124",
+      "deal_00029",
+      "deal_00068",
+      "deal_00293",
+      "deal_00071",
+      "deal_00187",
+      "deal_00298",
+      "deal_00249",
+      "deal_00106",
+      "deal_00166",
+      "deal_00217",
+      "deal_00082",
+      "deal_00239",
+      "deal_00145",
+      "deal_00221",
+      "deal_00251",
+      "deal_00040",
+      "deal_00076"
+    ]
+  },
+  {
+    "id": "user_00119",
+    "name": "User 119",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00110",
+      "deal_00218",
+      "deal_00051",
+      "deal_00222",
+      "deal_00254",
+      "deal_00128",
+      "deal_00215",
+      "deal_00300",
+      "deal_00062",
       "deal_00001",
       "deal_00002",
-      "deal_00005",
+      "deal_00028",
+      "deal_00091",
+      "deal_00147",
+      "deal_00224"
+    ]
+  },
+  {
+    "id": "user_00120",
+    "name": "User 120",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00099",
+      "deal_00247",
+      "deal_00198",
+      "deal_00284",
+      "deal_00225"
+    ]
+  },
+  {
+    "id": "user_00121",
+    "name": "User 121",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00038",
+      "deal_00014",
+      "deal_00291",
+      "deal_00048",
+      "deal_00091",
+      "deal_00215",
+      "deal_00030",
+      "deal_00150",
+      "deal_00110",
+      "deal_00186",
+      "deal_00032"
+    ]
+  },
+  {
+    "id": "user_00122",
+    "name": "User 122",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00202",
+      "deal_00184",
+      "deal_00293",
+      "deal_00173",
+      "deal_00159",
+      "deal_00269",
+      "deal_00251",
+      "deal_00262",
+      "deal_00187",
       "deal_00004",
-      "deal_00003"
+      "deal_00296",
+      "deal_00266",
+      "deal_00160",
+      "deal_00191",
+      "deal_00290"
+    ]
+  },
+  {
+    "id": "user_00123",
+    "name": "User 123",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00124",
+    "name": "User 124",
+    "preferredCategories": [
+      "Retail",
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00125",
+    "name": "User 125",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00120",
+      "deal_00008",
+      "deal_00147",
+      "deal_00072",
+      "deal_00150",
+      "deal_00257",
+      "deal_00100",
+      "deal_00300",
+      "deal_00002",
+      "deal_00014"
+    ]
+  },
+  {
+    "id": "user_00126",
+    "name": "User 126",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00173",
+      "deal_00290",
+      "deal_00011"
+    ]
+  },
+  {
+    "id": "user_00127",
+    "name": "User 127",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00142",
+      "deal_00045",
+      "deal_00176",
+      "deal_00241",
+      "deal_00027",
+      "deal_00161"
+    ]
+  },
+  {
+    "id": "user_00128",
+    "name": "User 128",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00033",
+      "deal_00256",
+      "deal_00233",
+      "deal_00228",
+      "deal_00150",
+      "deal_00079",
+      "deal_00030",
+      "deal_00036",
+      "deal_00100",
+      "deal_00222",
+      "deal_00147",
+      "deal_00101",
+      "deal_00275",
+      "deal_00002",
+      "deal_00028",
+      "deal_00258",
+      "deal_00180",
+      "deal_00254",
+      "deal_00001",
+      "deal_00112"
+    ]
+  },
+  {
+    "id": "user_00129",
+    "name": "User 129",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00130",
+    "name": "User 130",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00031",
+      "deal_00016",
+      "deal_00114",
+      "deal_00110",
+      "deal_00030",
+      "deal_00057",
+      "deal_00084",
+      "deal_00204",
+      "deal_00243",
+      "deal_00027",
+      "deal_00087",
+      "deal_00248",
+      "deal_00032",
+      "deal_00257",
+      "deal_00137",
+      "deal_00180",
+      "deal_00116",
+      "deal_00225",
+      "deal_00012",
+      "deal_00051"
+    ]
+  },
+  {
+    "id": "user_00131",
+    "name": "User 131",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00071",
+      "deal_00152",
+      "deal_00173",
+      "deal_00081",
+      "deal_00145",
+      "deal_00111",
+      "deal_00125",
+      "deal_00009",
+      "deal_00216",
+      "deal_00118",
+      "deal_00040",
+      "deal_00190",
+      "deal_00179",
+      "deal_00266",
+      "deal_00090",
+      "deal_00124",
+      "deal_00064"
+    ]
+  },
+  {
+    "id": "user_00132",
+    "name": "User 132",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00133",
+    "name": "User 133",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00134",
+    "name": "User 134",
+    "preferredCategories": [
+      "Retail",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00264",
+      "deal_00132",
+      "deal_00015",
+      "deal_00037",
+      "deal_00127",
+      "deal_00250"
+    ]
+  },
+  {
+    "id": "user_00135",
+    "name": "User 135",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00276",
+      "deal_00108",
+      "deal_00017"
+    ]
+  },
+  {
+    "id": "user_00136",
+    "name": "User 136",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00291",
+      "deal_00147",
+      "deal_00127",
+      "deal_00088",
+      "deal_00017",
+      "deal_00010",
+      "deal_00084",
+      "deal_00078",
+      "deal_00022",
+      "deal_00167",
+      "deal_00245",
+      "deal_00260",
+      "deal_00227"
+    ]
+  },
+  {
+    "id": "user_00137",
+    "name": "User 137",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00283",
+      "deal_00239",
+      "deal_00035",
+      "deal_00217",
+      "deal_00265",
+      "deal_00285",
+      "deal_00168",
+      "deal_00268",
+      "deal_00295",
+      "deal_00158",
+      "deal_00226"
+    ]
+  },
+  {
+    "id": "user_00138",
+    "name": "User 138",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00074",
+      "deal_00276",
+      "deal_00148"
+    ]
+  },
+  {
+    "id": "user_00139",
+    "name": "User 139",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00210",
+      "deal_00137",
+      "deal_00272"
+    ]
+  },
+  {
+    "id": "user_00140",
+    "name": "User 140",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00164",
+      "deal_00206",
+      "deal_00161",
+      "deal_00066",
+      "deal_00135",
+      "deal_00098",
+      "deal_00142",
+      "deal_00243",
+      "deal_00274",
+      "deal_00122",
+      "deal_00021",
+      "deal_00177",
+      "deal_00225",
+      "deal_00097",
+      "deal_00240",
+      "deal_00094",
+      "deal_00153",
+      "deal_00280",
+      "deal_00154"
+    ]
+  },
+  {
+    "id": "user_00141",
+    "name": "User 141",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00291",
+      "deal_00079",
+      "deal_00222",
+      "deal_00110",
+      "deal_00060",
+      "deal_00275",
+      "deal_00300",
+      "deal_00147",
+      "deal_00032",
+      "deal_00150",
+      "deal_00258",
+      "deal_00091",
+      "deal_00218",
+      "deal_00224",
+      "deal_00257",
+      "deal_00030",
+      "deal_00120",
+      "deal_00057",
+      "deal_00084",
+      "deal_00255"
+    ]
+  },
+  {
+    "id": "user_00142",
+    "name": "User 142",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00072",
+      "deal_00110",
+      "deal_00163",
+      "deal_00044",
+      "deal_00260",
+      "deal_00228",
+      "deal_00091",
+      "deal_00101",
+      "deal_00033",
+      "deal_00229",
+      "deal_00267",
+      "deal_00223",
+      "deal_00087",
+      "deal_00256"
+    ]
+  },
+  {
+    "id": "user_00143",
+    "name": "User 143",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00191",
+      "deal_00011",
+      "deal_00269",
+      "deal_00268",
+      "deal_00118",
+      "deal_00198",
+      "deal_00166",
+      "deal_00009",
+      "deal_00004",
+      "deal_00107",
+      "deal_00296",
+      "deal_00279"
+    ]
+  },
+  {
+    "id": "user_00144",
+    "name": "User 144",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00287",
+      "deal_00225",
+      "deal_00117",
+      "deal_00199",
+      "deal_00012",
+      "deal_00077",
+      "deal_00171",
+      "deal_00042",
+      "deal_00142",
+      "deal_00195",
+      "deal_00116",
+      "deal_00019",
+      "deal_00121",
+      "deal_00182",
+      "deal_00282",
+      "deal_00018",
+      "deal_00098",
+      "deal_00181"
+    ]
+  },
+  {
+    "id": "user_00145",
+    "name": "User 145",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00269",
+      "deal_00262",
+      "deal_00191",
+      "deal_00235",
+      "deal_00295",
+      "deal_00268",
+      "deal_00232",
+      "deal_00221",
+      "deal_00251",
+      "deal_00145"
+    ]
+  },
+  {
+    "id": "user_00146",
+    "name": "User 146",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00048",
+      "deal_00257",
+      "deal_00033",
+      "deal_00057",
+      "deal_00030",
+      "deal_00036"
+    ]
+  },
+  {
+    "id": "user_00147",
+    "name": "User 147",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00167",
+      "deal_00110",
+      "deal_00260",
+      "deal_00007",
+      "deal_00072",
+      "deal_00001",
+      "deal_00032",
+      "deal_00036",
+      "deal_00186",
+      "deal_00180",
+      "deal_00051",
+      "deal_00223",
+      "deal_00008",
+      "deal_00044",
+      "deal_00254",
+      "deal_00080",
+      "deal_00215",
+      "deal_00091",
+      "deal_00259"
+    ]
+  },
+  {
+    "id": "user_00148",
+    "name": "User 148",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00119",
+      "deal_00211",
+      "deal_00102",
+      "deal_00134",
+      "deal_00143",
+      "deal_00141",
+      "deal_00109",
+      "deal_00083",
+      "deal_00208",
+      "deal_00046"
+    ]
+  },
+  {
+    "id": "user_00149",
+    "name": "User 149",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Lifestyle & Fitness"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00150",
+    "name": "User 150",
+    "preferredCategories": [
+      "Retail",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00084",
+      "deal_00069",
+      "deal_00102",
+      "deal_00264",
+      "deal_00051",
+      "deal_00073",
+      "deal_00258",
+      "deal_00278",
+      "deal_00059",
+      "deal_00275",
+      "deal_00203",
+      "deal_00048",
+      "deal_00300",
+      "deal_00094",
+      "deal_00215",
+      "deal_00110",
+      "deal_00154",
+      "deal_00100",
+      "deal_00036"
+    ]
+  },
+  {
+    "id": "user_00151",
+    "name": "User 151",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00163",
+      "deal_00186",
+      "deal_00108",
+      "deal_00086",
+      "deal_00007",
+      "deal_00156",
+      "deal_00219",
+      "deal_00229",
+      "deal_00036",
+      "deal_00267",
+      "deal_00010",
+      "deal_00273",
+      "deal_00257",
+      "deal_00230",
+      "deal_00197",
+      "deal_00237",
+      "deal_00002",
+      "deal_00013",
+      "deal_00048"
+    ]
+  },
+  {
+    "id": "user_00152",
+    "name": "User 152",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00153",
+    "name": "User 153",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00266",
+      "deal_00202",
+      "deal_00249",
+      "deal_00214",
+      "deal_00145",
+      "deal_00159",
+      "deal_00298",
+      "deal_00155",
+      "deal_00025",
+      "deal_00090",
+      "deal_00082",
+      "deal_00118",
+      "deal_00029",
+      "deal_00238"
+    ]
+  },
+  {
+    "id": "user_00154",
+    "name": "User 154",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00155",
+    "name": "User 155",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00125",
+      "deal_00217",
+      "deal_00281",
+      "deal_00159",
+      "deal_00099",
+      "deal_00282",
+      "deal_00064",
+      "deal_00196",
+      "deal_00172",
+      "deal_00202",
+      "deal_00232",
+      "deal_00047",
+      "deal_00176"
+    ]
+  },
+  {
+    "id": "user_00156",
+    "name": "User 156",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00082",
+      "deal_00248",
+      "deal_00187",
+      "deal_00114",
+      "deal_00016",
+      "deal_00155",
+      "deal_00239",
+      "deal_00040",
+      "deal_00133",
+      "deal_00290",
+      "deal_00172"
+    ]
+  },
+  {
+    "id": "user_00157",
+    "name": "User 157",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00178",
+      "deal_00261",
+      "deal_00083",
+      "deal_00094",
+      "deal_00061"
+    ]
+  },
+  {
+    "id": "user_00158",
+    "name": "User 158",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00122",
+      "deal_00271",
+      "deal_00070",
+      "deal_00093",
+      "deal_00037",
+      "deal_00231",
+      "deal_00102",
+      "deal_00151",
+      "deal_00185",
+      "deal_00039",
+      "deal_00208",
+      "deal_00240",
+      "deal_00052",
+      "deal_00274",
+      "deal_00109",
+      "deal_00104"
+    ]
+  },
+  {
+    "id": "user_00159",
+    "name": "User 159",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00273",
+      "deal_00050",
+      "deal_00015",
+      "deal_00054",
+      "deal_00078",
+      "deal_00108",
+      "deal_00245",
+      "deal_00006",
+      "deal_00156",
+      "deal_00201"
+    ]
+  },
+  {
+    "id": "user_00160",
+    "name": "User 160",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00057",
+      "deal_00087",
+      "deal_00215",
+      "deal_00224",
+      "deal_00260",
+      "deal_00218",
+      "deal_00128",
+      "deal_00044",
+      "deal_00100",
+      "deal_00001"
+    ]
+  },
+  {
+    "id": "user_00161",
+    "name": "User 161",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00203",
+      "deal_00264",
+      "deal_00240",
+      "deal_00231",
+      "deal_00183",
+      "deal_00132",
+      "deal_00102",
+      "deal_00144",
+      "deal_00220",
+      "deal_00192",
+      "deal_00115",
+      "deal_00037",
+      "deal_00046"
+    ]
+  },
+  {
+    "id": "user_00162",
+    "name": "User 162",
+    "preferredCategories": [
+      "Retail",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00178",
+      "deal_00146",
+      "deal_00199",
+      "deal_00182",
+      "deal_00132",
+      "deal_00299",
+      "deal_00122"
+    ]
+  },
+  {
+    "id": "user_00163",
+    "name": "User 163",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00025",
+      "deal_00216",
+      "deal_00207",
+      "deal_00068",
+      "deal_00296",
+      "deal_00076",
+      "deal_00198",
+      "deal_00004"
+    ]
+  },
+  {
+    "id": "user_00164",
+    "name": "User 164",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00165",
+    "name": "User 165",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00209",
+      "deal_00034",
+      "deal_00022",
+      "deal_00227",
+      "deal_00006",
+      "deal_00289",
+      "deal_00058",
+      "deal_00127",
+      "deal_00074",
+      "deal_00168",
+      "deal_00197",
+      "deal_00013"
+    ]
+  },
+  {
+    "id": "user_00166",
+    "name": "User 166",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Food & Beverage"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00167",
+    "name": "User 167",
+    "preferredCategories": [
+      "Games & Entertainment",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00113",
+      "deal_00058",
+      "deal_00231",
+      "deal_00013",
+      "deal_00096",
+      "deal_00095",
+      "deal_00039",
+      "deal_00213",
+      "deal_00289",
+      "deal_00034",
+      "deal_00134",
+      "deal_00252",
+      "deal_00158",
+      "deal_00200",
+      "deal_00292"
+    ]
+  },
+  {
+    "id": "user_00168",
+    "name": "User 168",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00063",
+      "deal_00285",
+      "deal_00179",
+      "deal_00160",
+      "deal_00298",
+      "deal_00198",
+      "deal_00166",
+      "deal_00035",
+      "deal_00239",
+      "deal_00068",
+      "deal_00125",
+      "deal_00082",
+      "deal_00111",
+      "deal_00269",
+      "deal_00251",
+      "deal_00268"
+    ]
+  },
+  {
+    "id": "user_00169",
+    "name": "User 169",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00132",
+      "deal_00280",
+      "deal_00154",
+      "deal_00023",
+      "deal_00292",
+      "deal_00183",
+      "deal_00271",
+      "deal_00094",
+      "deal_00193",
+      "deal_00203",
+      "deal_00274",
+      "deal_00135",
+      "deal_00069",
+      "deal_00039",
+      "deal_00164",
+      "deal_00102",
+      "deal_00052",
+      "deal_00056"
+    ]
+  },
+  {
+    "id": "user_00170",
+    "name": "User 170",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Retail"
+    ],
+    "deals": [
+      "deal_00269",
+      "deal_00023",
+      "deal_00244",
+      "deal_00132",
+      "deal_00154",
+      "deal_00056",
+      "deal_00249",
+      "deal_00238",
+      "deal_00026",
+      "deal_00198",
+      "deal_00268",
+      "deal_00152",
+      "deal_00102",
+      "deal_00107",
+      "deal_00288"
+    ]
+  },
+  {
+    "id": "user_00171",
+    "name": "User 171",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00084",
+      "deal_00167",
+      "deal_00233",
+      "deal_00001",
+      "deal_00228",
+      "deal_00110",
+      "deal_00255",
+      "deal_00258",
+      "deal_00008",
+      "deal_00091",
+      "deal_00222"
+    ]
+  },
+  {
+    "id": "user_00172",
+    "name": "User 172",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00079",
+      "deal_00259",
+      "deal_00088"
+    ]
+  },
+  {
+    "id": "user_00173",
+    "name": "User 173",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00200",
+      "deal_00276",
+      "deal_00188",
+      "deal_00227",
+      "deal_00013",
+      "deal_00020",
+      "deal_00050",
+      "deal_00230",
+      "deal_00197",
+      "deal_00034",
+      "deal_00003",
+      "deal_00130",
+      "deal_00022",
+      "deal_00078"
+    ]
+  },
+  {
+    "id": "user_00174",
+    "name": "User 174",
+    "preferredCategories": [
+      "Retail",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00072",
+      "deal_00110",
+      "deal_00278",
+      "deal_00223",
+      "deal_00120",
+      "deal_00038"
+    ]
+  },
+  {
+    "id": "user_00175",
+    "name": "User 175",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00009",
+      "deal_00202",
+      "deal_00191",
+      "deal_00107",
+      "deal_00235",
+      "deal_00285",
+      "deal_00063",
+      "deal_00217",
+      "deal_00232",
+      "deal_00166",
+      "deal_00160",
+      "deal_00071",
+      "deal_00251",
+      "deal_00173",
+      "deal_00159",
+      "deal_00187",
+      "deal_00216",
+      "deal_00244",
+      "deal_00293"
+    ]
+  },
+  {
+    "id": "user_00176",
+    "name": "User 176",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": []
+  },
+  {
+    "id": "user_00177",
+    "name": "User 177",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00194",
+      "deal_00045",
+      "deal_00247",
+      "deal_00153",
+      "deal_00225",
+      "deal_00105",
+      "deal_00027",
+      "deal_00066",
+      "deal_00171",
+      "deal_00149",
+      "deal_00294",
+      "deal_00210",
+      "deal_00205",
+      "deal_00206"
+    ]
+  },
+  {
+    "id": "user_00178",
+    "name": "User 178",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00179",
+      "deal_00166",
+      "deal_00198",
+      "deal_00011",
+      "deal_00251",
+      "deal_00079",
+      "deal_00229",
+      "deal_00232"
+    ]
+  },
+  {
+    "id": "user_00179",
+    "name": "User 179",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00043",
+      "deal_00206",
+      "deal_00136",
+      "deal_00066",
+      "deal_00234",
+      "deal_00133",
+      "deal_00131",
+      "deal_00149",
+      "deal_00248",
+      "deal_00212"
+    ]
+  },
+  {
+    "id": "user_00180",
+    "name": "User 180",
+    "preferredCategories": [
+      "Lifestyle & Fitness",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00275",
+      "deal_00262",
+      "deal_00228",
+      "deal_00080",
+      "deal_00223",
+      "deal_00086",
+      "deal_00191",
+      "deal_00216",
+      "deal_00167",
+      "deal_00233",
+      "deal_00030",
+      "deal_00106",
+      "deal_00239",
+      "deal_00038",
+      "deal_00224",
+      "deal_00032",
+      "deal_00028",
+      "deal_00251",
+      "deal_00202"
+    ]
+  },
+  {
+    "id": "user_00181",
+    "name": "User 181",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00022",
+      "deal_00215",
+      "deal_00028",
+      "deal_00054",
+      "deal_00051",
+      "deal_00147",
+      "deal_00108",
+      "deal_00257",
+      "deal_00276",
+      "deal_00158",
+      "deal_00273"
+    ]
+  },
+  {
+    "id": "user_00182",
+    "name": "User 182",
+    "preferredCategories": [
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00234",
+      "deal_00117",
+      "deal_00024",
+      "deal_00199",
+      "deal_00241",
+      "deal_00021",
+      "deal_00019",
+      "deal_00263",
+      "deal_00146"
+    ]
+  },
+  {
+    "id": "user_00183",
+    "name": "User 183",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00141",
+      "deal_00134",
+      "deal_00126",
+      "deal_00292",
+      "deal_00143",
+      "deal_00144",
+      "deal_00193"
+    ]
+  },
+  {
+    "id": "user_00184",
+    "name": "User 184",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00086",
+      "deal_00300",
+      "deal_00062",
+      "deal_00120",
+      "deal_00254",
+      "deal_00032"
+    ]
+  },
+  {
+    "id": "user_00185",
+    "name": "User 185",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00103",
+      "deal_00158",
+      "deal_00156",
+      "deal_00250"
+    ]
+  },
+  {
+    "id": "user_00186",
+    "name": "User 186",
+    "preferredCategories": [
+      "Retail",
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00209",
+      "deal_00178",
+      "deal_00156",
+      "deal_00074",
+      "deal_00220",
+      "deal_00122",
+      "deal_00211"
+    ]
+  },
+  {
+    "id": "user_00187",
+    "name": "User 187",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00116",
+      "deal_00033",
+      "deal_00007",
+      "deal_00024",
+      "deal_00002"
+    ]
+  },
+  {
+    "id": "user_00188",
+    "name": "User 188",
+    "preferredCategories": [
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00029",
+      "deal_00191",
+      "deal_00124",
+      "deal_00214",
+      "deal_00179",
+      "deal_00293",
+      "deal_00125",
+      "deal_00071",
+      "deal_00009",
+      "deal_00198",
+      "deal_00157",
+      "deal_00040",
+      "deal_00297",
+      "deal_00207",
+      "deal_00111",
+      "deal_00081",
+      "deal_00265"
+    ]
+  },
+  {
+    "id": "user_00189",
+    "name": "User 189",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00110",
+      "deal_00087",
+      "deal_00120",
+      "deal_00091",
+      "deal_00048",
+      "deal_00260",
+      "deal_00057",
+      "deal_00291",
+      "deal_00222",
+      "deal_00044",
+      "deal_00163",
+      "deal_00254",
+      "deal_00072"
+    ]
+  },
+  {
+    "id": "user_00190",
+    "name": "User 190",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00242",
+      "deal_00113",
+      "deal_00104",
+      "deal_00178",
+      "deal_00151",
+      "deal_00135",
+      "deal_00039",
+      "deal_00211",
+      "deal_00144",
+      "deal_00093",
+      "deal_00119"
+    ]
+  },
+  {
+    "id": "user_00191",
+    "name": "User 191",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00023",
+      "deal_00193",
+      "deal_00183",
+      "deal_00037",
+      "deal_00134",
+      "deal_00271",
+      "deal_00185",
+      "deal_00119",
+      "deal_00270",
+      "deal_00203",
+      "deal_00220",
+      "deal_00135",
+      "deal_00231"
+    ]
+  },
+  {
+    "id": "user_00192",
+    "name": "User 192",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00044",
+      "deal_00255",
+      "deal_00180",
+      "deal_00254",
+      "deal_00048",
+      "deal_00300",
+      "deal_00278",
+      "deal_00002",
+      "deal_00112",
+      "deal_00218",
+      "deal_00150",
+      "deal_00001",
+      "deal_00291",
+      "deal_00167"
+    ]
+  },
+  {
+    "id": "user_00193",
+    "name": "User 193",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00297",
+      "deal_00125",
+      "deal_00009"
+    ]
+  },
+  {
+    "id": "user_00194",
+    "name": "User 194",
+    "preferredCategories": [
+      "Food & Beverage",
+      "Travel & Attractions"
+    ],
+    "deals": [
+      "deal_00180",
+      "deal_00136",
+      "deal_00016",
+      "deal_00255",
+      "deal_00174",
+      "deal_00225",
+      "deal_00112",
+      "deal_00186",
+      "deal_00278",
+      "deal_00012",
+      "deal_00001",
+      "deal_00100",
+      "deal_00038",
+      "deal_00085",
+      "deal_00014",
+      "deal_00169"
+    ]
+  },
+  {
+    "id": "user_00195",
+    "name": "User 195",
+    "preferredCategories": [
+      "Games & Entertainment"
+    ],
+    "deals": [
+      "deal_00170",
+      "deal_00156",
+      "deal_00013",
+      "deal_00010",
+      "deal_00006",
+      "deal_00089"
+    ]
+  },
+  {
+    "id": "user_00196",
+    "name": "User 196",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00257",
+      "deal_00087",
+      "deal_00180",
+      "deal_00091",
+      "deal_00258",
+      "deal_00233",
+      "deal_00167",
+      "deal_00100",
+      "deal_00110",
+      "deal_00084",
+      "deal_00186",
+      "deal_00014"
+    ]
+  },
+  {
+    "id": "user_00197",
+    "name": "User 197",
+    "preferredCategories": [
+      "Retail"
+    ],
+    "deals": [
+      "deal_00069",
+      "deal_00061",
+      "deal_00039",
+      "deal_00065",
+      "deal_00164",
+      "deal_00143",
+      "deal_00192",
+      "deal_00115",
+      "deal_00178",
+      "deal_00151",
+      "deal_00070",
+      "deal_00134",
+      "deal_00185",
+      "deal_00102",
+      "deal_00292",
+      "deal_00141",
+      "deal_00208"
+    ]
+  },
+  {
+    "id": "user_00198",
+    "name": "User 198",
+    "preferredCategories": [
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00120",
+      "deal_00267",
+      "deal_00186",
+      "deal_00222"
+    ]
+  },
+  {
+    "id": "user_00199",
+    "name": "User 199",
+    "preferredCategories": [
+      "Retail",
+      "Lifestyle & Fitness"
+    ],
+    "deals": [
+      "deal_00242",
+      "deal_00065",
+      "deal_00046"
+    ]
+  },
+  {
+    "id": "user_00200",
+    "name": "User 200",
+    "preferredCategories": [
+      "Travel & Attractions",
+      "Food & Beverage"
+    ],
+    "deals": [
+      "deal_00116",
+      "deal_00099",
+      "deal_00228",
+      "deal_00086",
+      "deal_00177",
+      "deal_00294",
+      "deal_00105",
+      "deal_00016",
+      "deal_00215"
     ]
   }
 ]

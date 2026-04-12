@@ -51,6 +51,8 @@
 
 <script>
 import { getDeals } from "@/firebase/firestore";
+import { auth } from "@/firebase/firebase";
+import { getRecommendationDeals } from "@/services/recommendationApi";
 import DealCard from "@/components/DealCard.vue";
 import FilterButton from "@/components/FilterButton.vue";
 import SortButton from "@/components/SortButton.vue";
@@ -86,16 +88,16 @@ export default {
           .href,
         "Lifestyle & Fitness": new URL(
           "@/assets/icons/lifestyle.png",
-          import.meta.url
+          import.meta.url,
         ).href,
         "Travel & Attractions": new URL(
           "@/assets/icons/travel.png",
-          import.meta.url
+          import.meta.url,
         ).href,
         Retail: new URL("@/assets/icons/retail.png", import.meta.url).href,
         "Games & Entertainment": new URL(
           "@/assets/icons/games.png",
-          import.meta.url
+          import.meta.url,
         ).href,
       };
     },
@@ -105,23 +107,27 @@ export default {
           .href,
         "Lifestyle & Fitness": new URL(
           "@/assets/icons/lifestyle.png",
-          import.meta.url
+          import.meta.url,
         ).href,
         "Travel & Attractions": new URL(
           "@/assets/icons/travel.png",
-          import.meta.url
+          import.meta.url,
         ).href,
         Retail: new URL("@/assets/icons/retail.png", import.meta.url).href,
         "Games & Entertainment": new URL(
           "@/assets/icons/games.png",
-          import.meta.url
+          import.meta.url,
         ).href,
       };
     },
     filteredDealsByCategory() {
       return this.deals
         .filter((deal) => {
-          const dealExpiry = new Date(deal.validUntil.seconds * 1000);
+          const validUntilSeconds = this.getTimestampSeconds(deal.validUntil);
+          if (!validUntilSeconds) {
+            return false;
+          }
+          const dealExpiry = new Date(validUntilSeconds * 1000);
           const now = new Date();
           // hide expired deals
           if (dealExpiry < now) {
@@ -150,26 +156,58 @@ export default {
           return true;
         })
         .filter((deal) =>
-          deal.dealName.toLowerCase().includes(this.searchQuery.toLowerCase())
+          deal.dealName.toLowerCase().includes(this.searchQuery.toLowerCase()),
         );
     },
   },
 
   async created() {
+    await this.getUserLocation();
     await this.fetchDeals();
-    if (!this.sortfilterUsed) {
+    if (
+      !this.sortfilterUsed &&
+      !this.deals.some((deal) => deal.score !== undefined)
+    ) {
       this.deals.sort((a, b) => (b.clicks || 0) - (a.clicks || 0)); // Default sort by clicks
     }
-    await this.getUserLocation();
     await this.calculateAllDistances();
   },
   methods: {
+    getTimestampSeconds(timestamp) {
+      if (!timestamp) return null;
+      if (typeof timestamp.seconds === "number") return timestamp.seconds;
+
+      const parsedDate = new Date(timestamp);
+      if (Number.isNaN(parsedDate.getTime())) return null;
+      return Math.floor(parsedDate.getTime() / 1000);
+    },
     async fetchDeals() {
       try {
+        const userId = auth.currentUser?.uid;
+        if (userId) {
+          const recommendedDeals = await getRecommendationDeals({
+            userId,
+            limit: 50,
+            maxDistance: this.filters.maxDistance,
+            userLat: this.userLat,
+            userLng: this.userLng,
+          });
+
+          if (recommendedDeals.length > 0) {
+            this.deals = recommendedDeals;
+            return;
+          }
+        }
+
         const deals = await getDeals();
         this.deals = deals;
       } catch (error) {
-        console.error("There is an error fetching deals: ", error);
+        console.error(
+          "There is an error fetching recommendation deals: ",
+          error,
+        );
+        const deals = await getDeals();
+        this.deals = deals;
       }
     },
     async getUserLocation() {
@@ -184,7 +222,7 @@ export default {
             (error) => {
               console.error("There is an error fetching user location:", error);
               resolve();
-            }
+            },
           );
         } else {
           resolve();
@@ -217,8 +255,10 @@ export default {
         });
       } else if (criteria === "expiry") {
         this.deals.sort((a, b) => {
-          const expiryA = new Date(a.validUntil.seconds * 1000);
-          const expiryB = new Date(b.validUntil.seconds * 1000);
+          const expiryASeconds = this.getTimestampSeconds(a.validUntil) || 0;
+          const expiryBSeconds = this.getTimestampSeconds(b.validUntil) || 0;
+          const expiryA = new Date(expiryASeconds * 1000);
+          const expiryB = new Date(expiryBSeconds * 1000);
           return expiryB - expiryA; // Sort from longest to shortest time to expiry
         });
       } else if (criteria === "newest") {
@@ -229,15 +269,21 @@ export default {
           if (!b.createdDateTime) {
             return -1; // Treat deals without createdDateTime as older
           }
-          const dateA = new Date(a.createdDateTime.seconds);
-          const dateB = new Date(b.createdDateTime.seconds);
+          const dateASeconds = this.getTimestampSeconds(a.createdDateTime) || 0;
+          const dateBSeconds = this.getTimestampSeconds(b.createdDateTime) || 0;
+          const dateA = new Date(dateASeconds * 1000);
+          const dateB = new Date(dateBSeconds * 1000);
           return dateB - dateA; // Sort from newest to oldest
         });
       }
     },
     formatDate(timestamp) {
       try {
-        const date = new Date(timestamp.seconds * 1000);
+        const timestampSeconds = this.getTimestampSeconds(timestamp);
+        if (!timestampSeconds) {
+          return "Unable to fetch Date";
+        }
+        const date = new Date(timestampSeconds * 1000);
         return date.toLocaleDateString("en-SG", {
           year: "numeric",
           month: "long",
@@ -250,14 +296,18 @@ export default {
     },
     calculateRemainingTime(timestamp) {
       try {
-        const expiryDate = new Date(timestamp.seconds * 1000);
+        const timestampSeconds = this.getTimestampSeconds(timestamp);
+        if (!timestampSeconds) {
+          return "Unable to calculate remaining time";
+        }
+        const expiryDate = new Date(timestampSeconds * 1000);
         const now = new Date();
         const timeDiff = expiryDate - now;
 
         if (timeDiff <= 0) return "Expired";
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
         const hours = Math.floor(
-          (timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          (timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
         );
         return `${days} days, ${hours} hours from now`;
       } catch (error) {
@@ -292,7 +342,7 @@ export default {
               "Content-Type": "application/json",
               "X-Goog-Api-Key": API_KEY,
             },
-          }
+          },
         );
       };
 
@@ -334,7 +384,7 @@ export default {
         this.deals.map(async (deal) => {
           deal.distance = await this.calculateDistance(deal.location);
           return deal;
-        })
+        }),
       );
     },
   },

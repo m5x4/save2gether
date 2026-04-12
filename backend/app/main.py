@@ -6,8 +6,13 @@ from .recommendation_engine import RecommendationEngine
 from .firebase_service import FirebaseService
 import os
 from dotenv import load_dotenv
+import logging
 
 load_dotenv()
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Save2Gether Recommendation API",
@@ -15,16 +20,38 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# CORS Configuration
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
 firebase_service = FirebaseService()
 recommendation_engine = RecommendationEngine(firebase_service)
+
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize SVD model on startup"""
+    logger.info("Starting up Save2Gether Recommendation API...")
+    try:
+        result = await recommendation_engine.train_svd_model()
+        if result.get("trained"):
+            logger.info(f"SVD model trained successfully: {result}")
+        else:
+            logger.warning(f"SVD model training skipped: {result.get('reason')}")
+    except Exception as e:
+        logger.error(f"Error training SVD model on startup: {e}", exc_info=True)
+
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Cleanup on shutdown"""
+    logger.info("Shutting down Save2Gether Recommendation API...")
 
 
 class RecommendationRequest(BaseModel):
@@ -70,7 +97,13 @@ async def root():
 
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "service": "recommendation-api"}
+    """Health check endpoint"""
+    svd_status = recommendation_engine.get_svd_status()
+    return {
+        "status": "healthy",
+        "service": "recommendation-api",
+        "svd_model_ready": svd_status.get("ready", False)
+    }
 
 
 @app.get("/recommendations/{user_id}")
@@ -94,6 +127,7 @@ async def get_recommendations(
     - user_lng: User's longitude for distance calculation (optional)
     """
     try:
+        logger.info(f"Fetching recommendations for user: {user_id}, limit: {limit}")
         recommendations = await recommendation_engine.get_recommendations(
             user_id=user_id,
             limit=limit,
@@ -102,12 +136,14 @@ async def get_recommendations(
             user_lat=user_lat,
             user_lng=user_lng
         )
+        logger.info(f"Found {len(recommendations)} recommendations for user {user_id}")
         return {
             "user_id": user_id,
             "count": len(recommendations),
             "recommendations": recommendations
         }
     except Exception as e:
+        logger.error(f"Error fetching recommendations for {user_id}: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -180,12 +216,15 @@ async def get_svd_status():
 async def train_svd_model(request: SVDTrainRequest):
     """Train or retrain the SVD recommendation model."""
     try:
+        logger.info(f"Training SVD model with n_components={request.n_components}, min_interactions={request.min_interactions}")
         result = await recommendation_engine.train_svd_model(
             n_components=request.n_components or 20,
             min_interactions=request.min_interactions or 5
         )
+        logger.info(f"SVD training result: {result}")
         return result
     except Exception as e:
+        logger.error(f"Error training SVD model: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 

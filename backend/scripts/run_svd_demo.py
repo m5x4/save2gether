@@ -9,8 +9,6 @@ BACKEND_ROOT = Path(__file__).resolve().parent.parent
 if str(BACKEND_ROOT) not in sys.path:
     sys.path.insert(0, str(BACKEND_ROOT))
 
-from app.recommendation_engine import RecommendationEngine
-
 
 class InMemoryDataService:
     def __init__(self, users: List[Dict], deals: List[Dict]):
@@ -84,6 +82,8 @@ async def run_demo(
     min_interactions: int,
     category: Optional[str],
 ):
+    from app.recommendation_engine import RecommendationEngine
+
     users_path = data_dir / "users.json"
     deals_path = data_dir / "deals.json"
 
@@ -168,6 +168,8 @@ def parse_args() -> argparse.Namespace:
 def main():
     args = parse_args()
     data_dir = Path(args.data_dir)
+    if not data_dir.is_absolute():
+        data_dir = (BACKEND_ROOT / data_dir).resolve()
     asyncio.run(
         run_demo(
             data_dir=data_dir,
@@ -181,4 +183,13 @@ def main():
 
 
 if __name__ == "__main__":
+    import os
+
+    venv_python = BACKEND_ROOT / ".venv" / "bin" / "python"
+    in_virtualenv = getattr(sys, "base_prefix", sys.prefix) != sys.prefix
+
+    if venv_python.exists() and not in_virtualenv:
+        os.execv(str(venv_python), [str(venv_python), __file__, *sys.argv[1:]])
+
+    os.chdir(BACKEND_ROOT)
     main()

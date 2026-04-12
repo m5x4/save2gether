@@ -266,8 +266,8 @@ class RecommendationEngine:
             
             # Weighted combination of scores
             weights = {
-                'svd': 0.35 if svd_score > 0 else 0.0,
-                'content': 0.25,
+                'svd': 0.5 if svd_score > 0 else 0.0,
+                'content': 0.15,
                 'popularity': 0.15,
                 'recency': 0.10,
                 'urgency': 0.10,
